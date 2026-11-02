@@ -2,7 +2,7 @@
 
 # ZESTUP — *Loud flavor, zero sugar.*
 
-A high-fidelity, single-page marketing landing site for **ZESTUP**, a fictional cold-pressed juice brand with a loud, brutalist personality.
+A high-fidelity, single-page marketing landing site for **ZESTUP**, a fictional cold-pressed juice brand with a loud, personality.
 
 ![ZESTUP landing page hero](assets/img/zestup-hero.png)
 
