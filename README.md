@@ -24,6 +24,8 @@ It was produced as an **agentic build**: the visual direction was generated with
 
 ## Live preview
 
+Live site: [https://zest-phi-blush.vercel.app](https://zest-phi-blush.vercel.app)
+
 Because the site is a single static file with zero dependencies, you can run it any of these ways:
 
 ```bash
