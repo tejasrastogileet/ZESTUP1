@@ -249,7 +249,7 @@ a:focus-visible,button:focus-visible{outline:3px solid var(--yellow);outline-off
   <div class="blob s3"></div>
 </div>
 
-<nav class="nav">
+<nav class="nav" aria-label="Primary navigation">
   <a class="brand" href="#" aria-label="ZESTUP — home">
     ZESTUP
     <svg class="drop" viewBox="0 0 24 32" aria-hidden="true">
@@ -298,7 +298,7 @@ a:focus-visible,button:focus-visible{outline:3px solid var(--yellow);outline-off
       <video class="brand-video" autoplay muted loop playsinline preload="metadata" poster="assets/img/branding-poster.jpg">
         <source src="assets/video/branding-video.mp4" type="video/mp4">
       </video>
-      <button class="sound js-sound" type="button" aria-label="Toggle sound">🔇 Sound off</button>
+      <button class="sound js-sound" type="button" aria-label="Toggle sound" aria-pressed="false">🔇 Sound off</button>
     </div>
   </section>
 
@@ -318,7 +318,7 @@ a:focus-visible,button:focus-visible{outline:3px solid var(--yellow);outline-off
           <div class="amt"><b>$24</b><span class="per">$4.00 / bottle</span></div>
           <span class="meta">500ml · 6-pack</span>
         </div>
-        <button class="add">Add to fridge <span class="plus">+</span></button>
+        <button class="add" aria-label="Add Orange Riot to fridge">Add to fridge <span class="plus">+</span></button>
       </article>
       <article class="flavor f2 reveal" style="--accent:#ff2e88">
         <div class="visual">
@@ -333,7 +333,7 @@ a:focus-visible,button:focus-visible{outline:3px solid var(--yellow);outline-off
           <div class="amt"><b>$26</b><span class="per">$4.33 / bottle</span></div>
           <span class="meta">500ml · 6-pack</span>
         </div>
-        <button class="add">Add to fridge <span class="plus">+</span></button>
+        <button class="add" aria-label="Add Berry Brawl to fridge">Add to fridge <span class="plus">+</span></button>
       </article>
       <article class="flavor f3 reveal" style="--accent:#0fdc7f">
         <div class="visual placeholder">
@@ -348,7 +348,7 @@ a:focus-visible,button:focus-visible{outline:3px solid var(--yellow);outline-off
           <div class="amt"><b>$24</b><span class="per">$4.00 / bottle</span></div>
           <span class="meta">500ml · 6-pack</span>
         </div>
-        <button class="add">Add to fridge <span class="plus">+</span></button>
+        <button class="add" aria-label="Add Green Scream to fridge">Add to fridge <span class="plus">+</span></button>
       </article>
     </div>
   </section>
@@ -433,6 +433,7 @@ a:focus-visible,button:focus-visible{outline:3px solid var(--yellow);outline-off
       if (vid.paused) vid.play();
       vid.muted = !vid.muted;
       soundBtn.textContent = vid.muted ? '🔇 Sound off' : '🔊 Sound on';
+      soundBtn.setAttribute('aria-pressed', String(!vid.muted));
     });
   }
 </script>
