@@ -78,7 +78,6 @@ presso-landing/
 │       └── branding-video.mp4     # Brand film (1080p, web-optimized)
 └── docs/
     ├── DESIGN-SPEC.md         # Full design handoff spec (tokens, sections, motion)
-    └── preview.png            # Hero preview used in this README
 ```
 
 ## Design system
@@ -138,11 +137,8 @@ Released under the [MIT License](LICENSE). *ZESTUP is a fictional brand created 
 
 <div align="center">
 
-<img width="380" height="420" alt="engr-mejba-ahmed" src="https://github.com/user-attachments/assets/83e72c39-5eaa-428a-884b-cb4714332487" />
+**Tejas Rastogi**
 
-
-
-
-Built with an agentic self-verifying loop · Design direction via Claude Fable 5
+[GitHub repository](https://github.com/tejasrastogileet/ZESTUP1) · [GitHub profile](https://github.com/tejasrastogileet)
 
 </div>
